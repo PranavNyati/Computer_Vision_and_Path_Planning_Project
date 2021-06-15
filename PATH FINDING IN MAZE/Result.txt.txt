@@ -1,0 +1,29 @@
+NAME : PRANAV NYATI
+ROLL 20CS30037
+
+
+RESULTS TASK 1:
+
+CASE_1: DIAGONAL MOVEMENT ALLOWED
+
+                                      COST(in pixel units)     ||     TIME(in seconds)
+                                                               ||     
+1.)MANHATTAN DISTANCE             147.61017305526636 units     ||     0.03821873664855957
+2.)DIAGONAL DISTANCE              147.61017305526633 units     ||     0.786865234375
+3.)EUCLIDIAN DISTANCE             147.61017305526633 units     ||     0.3715183734893799
+4.)ADMISSIBLE HEURISTIC           147.61017305526633 units     ||     0.7499942779541016
+5.)NON - ADMISSIBLE HEURISTIC     167.06601717798225 units     ||     0.0388946533203125
+6.)DIJKSTRA'S                     147.61017305526633 units     ||     0.7819123268127441
+
+
+
+CASE_2: DIAGONAL MOVEMENT NOT ALLOWED
+
+                                      COST(in pixel units)     ||     TIME(in seconds)
+                                                               ||
+1.)MANHATTAN DISTANCE                     181 units            ||     0.21471214294433594
+2.)DIAGONAL DISTANCE                      181 units            ||     0.386962890625
+3.)EUCLIDIAN DISTANCE                     181 units            ||     0.4617645740509033
+4.)ADMISSIBLE HEURISTIC                   181 units            ||     0.2613201141357422
+5.)NON - ADMISSIBLE HEURISTIC             195 units            ||     0.028925657272338867
+6.)DIJKSTRA'S                             181 units            ||     0.30810046195983887
